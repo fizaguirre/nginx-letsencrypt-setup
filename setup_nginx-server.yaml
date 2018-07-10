@@ -23,7 +23,7 @@
         yum:
           name: certbot-nginx
           state: latest
-      - name: Copying nginx templte
+      - name: Copying nginx template
         template:
           src: nginx.j2
           dest: /etc/nginx/nginx.conf
